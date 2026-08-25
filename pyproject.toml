@@ -1,0 +1,15 @@
+[project]
+name = "prompt-engineering"
+version = "0.1.0"
+description = "OpenAI prompt engineering notebooks"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.0",
+    "nbconvert>=7.16.0",
+]
